@@ -1,6 +1,6 @@
 # Technology Events @Europe
 
-If you are stuck in your career, let's put a final countdown.
+Events of technology all over the Europe.
 
 ## Contents
 
