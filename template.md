@@ -1,6 +1,6 @@
 # Events in {country} - {flag}
 
-## Month
+## {Month}
 
 | Event Name | City | Address | Start Date | End Date | Type |
 |------------|------|---------|:----------:|:--------:|------|
