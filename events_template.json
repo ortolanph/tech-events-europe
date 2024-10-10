@@ -5,19 +5,17 @@
             "cc": {
                 "countryName": "Country",
                 "flag": "flags/cc.jpg",
-                "events": {
-                    "jan": [
-                        {
-                            "name": "",
-                            "city": "",
-                            "address": "",
-                            "startDate": "",
-                            "endDate": "",
-                            "type": ""
-                        }
-                    ]
-                }
+                "events": [
+                    {
+                        "name": "",
+                        "city": "",
+                        "address": "",
+                        "startDate": "",
+                        "endDate": "",
+                        "type": ""
+                    }
+                ]
             }
         }
-    } 
+    }
 ]
