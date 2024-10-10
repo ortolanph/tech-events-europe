@@ -8,7 +8,7 @@ This repository is under construction. Still no content... I will make my effort
 
 ## How to use it?
 
-On the Contents table select your country and you will be redirected into the country event page. This page is updated monthly to show only the remaining months of the year.
+On the Contents table select your country and you will be redirected into the country event page. This page is updated weekly to show only the remaining months of the year.
 
 ## How to contribute
 
