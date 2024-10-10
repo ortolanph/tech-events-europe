@@ -4,7 +4,7 @@ Events of technology all over the Europe.
 
 ## Contents
 
-This repository is under construction.
+This repository is under construction. Still no content... I will make my efforts to create the parsing script for 2025. But you can begin contributing. See how below.
 
 ## How to use it?
 
