@@ -1,4 +1,4 @@
-# ![Europe](flages/european-union.png "Europe") Technology Events @Europe
+# ![Europe](flags/european-union.png "Europe") Technology Events @Europe
 
 Events of technology all over the Europe.
 
