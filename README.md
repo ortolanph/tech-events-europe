@@ -17,3 +17,7 @@ If you want to contribute, fork this repository and do the changes to the events
 Create an issue to be responsible for the events in your country.
 
 Thanks, Paulo Ortolan.
+
+## Credits
+
+<a href="https://www.flaticon.com/free-icons/europe" title="europe icons">Europe icons created by IconsBox - Flaticon</a>
