@@ -6,6 +6,8 @@ Events of technology all over the Europe.
 
 This repository is under construction. Still no content... I will make my efforts to create the parsing script for 2025. But you can begin contributing. See how below.
 
+* All Europe
+
 ## How to use it?
 
 On the Contents table select your country and you will be redirected into the country event page. This page is updated weekly to show only the remaining months of the year.
