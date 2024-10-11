@@ -1,21 +1,17 @@
 [
     {
-        "year": 2025,
-        "events": {
-            "cc": {
-                "countryName": "Country",
-                "flag": "flags/cc.jpg",
-                "events": [
-                    {
-                        "name": "",
-                        "city": "",
-                        "address": "",
-                        "startDate": "",
-                        "endDate": "",
-                        "type": ""
-                    }
-                ]
+        "countryName": "Country",
+        "flag": "flags/cc.jpg",
+        "events": [
+            {
+                "name": "",
+                "site": "",
+                "city": "",
+                "address": "",
+                "startDate": "",
+                "endDate": "",
+                "type": ""
             }
-        }
+        ]
     }
 ]
