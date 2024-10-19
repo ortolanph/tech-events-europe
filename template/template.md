@@ -1,4 +1,4 @@
-# Events in {country} - {flag}
+# {flag} {country} Events
 
 ## {Month}
 

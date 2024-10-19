@@ -1,11 +1,11 @@
 [
   {
-    "country_code": "",
     "event_name": "",
     "event_site": "",
     "city": "",
+    "location": "",
     "address": "",
-    "start_ate": "",
+    "start_date": "",
     "end_date": "",
     "type": ""
   }
