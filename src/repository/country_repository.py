@@ -20,7 +20,11 @@ class CountryRepository:
             )
 
             for data in country_file_csv_data:
-                self._country_data.append(Country(data['Country'], data['Code'], data['Flag']))
+                self._country_data.append(Country(
+                    data[self._FIELD_NAMES[0]],
+                    data[self._FIELD_NAMES[1]],
+                    data[self._FIELD_NAMES[2]])
+                )
 
     def get_country_list(self):
         return self._country_data
