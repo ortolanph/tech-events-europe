@@ -7,8 +7,6 @@ from src.repository.country_repository import CountryRepository
 from src.repository.event_repository import EventRepository
 
 
-# Arguments country_code --country_code -cc "xx"
-
 def main(country_code):
     config = ConfigManager()
     country_repository = CountryRepository(config.get_countries_data())
@@ -16,11 +14,11 @@ def main(country_code):
 
     if not country_data is None:
         event_repository = EventRepository(f'data/events_{country_code}.json')
-        country_processor = SingleCountryProcessor(country_data, event_repository)
+        country_processor = SingleCountryProcessor(country_data, event_repository, config.get_template_file())
 
         country_processor.process()
     else:
-        print(f'Not found country {country_code}')
+        print(f'Country not found {country_code}')
 
 
 if __name__ == '__main__':
@@ -36,7 +34,5 @@ if __name__ == '__main__':
         required=True
     )
     arguments = parser.parse_args()
-
-    print(arguments)
 
     main(arguments.country_code)

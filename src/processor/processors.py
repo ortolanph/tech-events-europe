@@ -1,7 +1,4 @@
-from platform import processor
-
 from src.entities.country import Country
-from src.repository.country_repository import CountryRepository
 from src.repository.event_repository import EventRepository
 
 
@@ -12,9 +9,10 @@ class Processor:
 
 class SingleCountryProcessor(Processor):
 
-    def __init__(self, country: Country, event_repository: EventRepository):
+    def __init__(self, country: Country, event_repository: EventRepository, template_file):
         self._country = country
         self._event_repository = event_repository
+        self._template_file = template_file
 
     def process(self):
         print(f"processing country {self._country.name}")

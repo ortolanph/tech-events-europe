@@ -1,13 +1,18 @@
-import json
 import datetime
+import json
 
 from src.entities.event import Event
 
+
 def date_filter(event):
     today = datetime.date.today()
+
     current_year = today.year
+    beginning_of_the_current_month = datetime.date(current_year, today.month, 1)
     last_day_of_year = datetime.date(current_year, 12, 31)
-    return event.start_date >= today and event.end_date <= last_day_of_year
+
+    return event.start_date >= beginning_of_the_current_month and event.end_date <= last_day_of_year
+
 
 class EventRepository:
     _events = []

@@ -1,7 +1,7 @@
 import yaml
 
-class ConfigManager:
 
+class ConfigManager:
     _CONFIG_FILE = "config.yaml"
     _config = {}
 

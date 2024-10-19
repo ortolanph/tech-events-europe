@@ -26,5 +26,5 @@ class CountryRepository:
         return self._country_data
 
     def get_country_by_code(self, country_code):
-        result = list(filter(lambda c : filter_by_country_code(c, country_code), self._country_data))
+        result = list(filter(lambda c: filter_by_country_code(c, country_code), self._country_data))
         return result[0] if len(result) > 0 else None
