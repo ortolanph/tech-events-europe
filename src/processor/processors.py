@@ -1,5 +1,19 @@
 from src.entities.country import Country
+from src.entities.month_event import MonthEvent
+from src.page.page_creator import PageCreator
 from src.repository.event_repository import EventRepository
+
+
+def filter_month_by_id(month_data, month_id):
+    return month_data.get_id() == month_id
+
+
+def date_sorter(event):
+    return event.get_start_date()
+
+
+def filter_events_by_month(event, month):
+    return event.get_start_date().month == month
 
 
 class Processor:
@@ -8,71 +22,50 @@ class Processor:
 
 
 class SingleCountryProcessor(Processor):
-
-    _MONTHS = [
-        {
-            "month_number": 1,
-            "month_name": "January"
-        },
-        {
-            "month_number": 2,
-            "month_name": "February"
-        },
-        {
-            "month_number": 3,
-            "month_name": "March"
-        },
-        {
-            "month_number": 4,
-            "month_name": "April"
-        },
-        {
-            "month_number": 5,
-            "month_name": "May"
-        },
-        {
-            "month_number": 6,
-            "month_name": "June"
-        },
-        {
-            "month_number": 7,
-            "month_name": "July"
-        },
-        {
-            "month_number": 8,
-            "month_name": "August"
-        },
-        {
-            "month_number": 9,
-            "month_name": "September"
-        },
-        {
-            "month_number": 10,
-            "month_name": "October"
-        },
-        {
-            "month_number": 11,
-            "month_name": "November"
-        },
-        {
-            "month_number": 12,
-            "month_name": "December"
-        }
+    _events_by_month = [
+        MonthEvent(1, "January"),
+        MonthEvent(2, "February"),
+        MonthEvent(3, "March"),
+        MonthEvent(4, "April"),
+        MonthEvent(5, "May"),
+        MonthEvent(6, "June"),
+        MonthEvent(7, "July"),
+        MonthEvent(8, "August"),
+        MonthEvent(9, "September"),
+        MonthEvent(10, "October"),
+        MonthEvent(11, "November"),
+        MonthEvent(12, "December"),
     ]
 
     def __init__(self, country: Country, event_repository: EventRepository, template_file):
         self._country = country
         self._event_repository = event_repository
         self._template_file = template_file
+        self._page_creator = PageCreator(template_file, country)
 
     def process(self):
-        for event in self._event_repository.get_upcoming_events():
-            pass
+        events = self._event_repository.get_upcoming_events()
+        events.sort(key=date_sorter, reverse=False)
+        first_month = events[0].get_start_date().month
+
+        arranged_events = []
+
+        for month in range(first_month, 13):
+            current_month = \
+            list(filter(lambda month_data: filter_month_by_id(month_data, month), self._events_by_month))[0]
+
+            selected_events = list(filter(lambda event: filter_events_by_month(event, month), events))
+            current_month.clear_events()
+            current_month.add_events(selected_events)
+
+            arranged_events.append(current_month.to_dict())
+
+        self._page_creator.create_page(arranged_events)
 
 
 class AllCountriesProcessor(Processor):
 
-    def __init__(self, processors: [Processor]):
+    def __init__(self, processors: []):
         self._processors = processors
 
     def process(self):

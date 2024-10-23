@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Java Spring Boot Workshop",
+    "site": "https://javaspringbootworkshop.com",
+    "city": "Paris",
+    "address": "12 Avenue de la Grande Armée",
+    "location": "Le Méridien Etoile",
+    "start_date": "2024-11-01",
+    "end_date": "2024-11-01",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "Advanced Python in AI",
+    "site": "https://advancedpythoninai.com",
+    "city": "Lyon",
+    "address": "8 Place Bellecour",
+    "location": "Université Claude Bernard Lyon 1",
+    "start_date": "2024-11-04",
+    "end_date": "2024-11-04",
+    "type": "HYBRID"
+  },
+  {
+    "name": "Kotlin Web Frameworks",
+    "site": "https://kotlinwebframeworks.com",
+    "city": "Marseille",
+    "address": "17 Boulevard Michelet",
+    "location": "Palais des Congrès Marseille",
+    "start_date": "2024-11-08",
+    "end_date": "2024-11-08",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "AI & Machine Learning Summit",
+    "site": "https://aimachinelearningsummit.com",
+    "city": "",
+    "address": "",
+    "location": "",
+    "start_date": "2024-11-12",
+    "end_date": "2024-11-12",
+    "type": "ONLINE"
+  },
+  {
+    "name": "Blockchain Essentials",
+    "site": "https://blockchainessentials.com",
+    "city": "Toulouse",
+    "address": "5 Allées Jules Guesde",
+    "location": "Université Toulouse 1 Capitole",
+    "start_date": "2024-11-16",
+    "end_date": "2024-11-16",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "JavaScript Full Stack Development",
+    "site": "https://javascriptfullstackdevelopment.com",
+    "city": "Nice",
+    "address": "223 Promenade des Anglais",
+    "location": "Radisson Blu Hotel Nice",
+    "start_date": "2024-11-20",
+    "end_date": "2024-11-20",
+    "type": "HYBRID"
+  },
+  {
+    "name": "AI in Healthcare",
+    "site": "https://aiinhealthcare.com",
+    "city": "Paris",
+    "address": "79 Avenue des Champs-Élysées",
+    "location": "Hôtel Barrière Le Fouquet's",
+    "start_date": "2024-11-25",
+    "end_date": "2024-11-25",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "Python Data Science Bootcamp",
+    "site": "https://pythondatasciencebootcamp.com",
+    "city": "",
+    "address": "",
+    "location": "",
+    "start_date": "2024-11-29",
+    "end_date": "2024-11-29",
+    "type": "ONLINE"
+  },
+  {
+    "name": "Software Architecture Masterclass",
+    "site": "https://softwarearchitecturemasterclass.com",
+    "city": "Bordeaux",
+    "address": "44 Quai des Chartrons",
+    "location": "Cité Mondiale Conference Center",
+    "start_date": "2024-12-02",
+    "end_date": "2024-12-02",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "Machine Learning in Finance",
+    "site": "https://machinelearninginfinance.com",
+    "city": "Lille",
+    "address": "Avenue Willy Brandt",
+    "location": "Lille Grand Palais",
+    "start_date": "2024-12-06",
+    "end_date": "2024-12-06",
+    "type": "HYBRID"
+  },
+  {
+    "name": "AI & Blockchain Convergence",
+    "site": "https://aiblockchainconvergence.com",
+    "city": "",
+    "address": "",
+    "location": "",
+    "start_date": "2024-12-10",
+    "end_date": "2024-12-10",
+    "type": "ONLINE"
+  },
+  {
+    "name": "Kotlin Advanced Techniques",
+    "site": "https://kotlinadvancedtechniques.com",
+    "city": "Strasbourg",
+    "address": "1 Place de l'Université",
+    "location": "Université de Strasbourg",
+    "start_date": "2024-12-14",
+    "end_date": "2024-12-14",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "AI in Game Development",
+    "site": "https://aiingamedevelopment.com",
+    "city": "Marseille",
+    "address": "35 Quai des Belges",
+    "location": "Sofitel Marseille Vieux-Port",
+    "start_date": "2024-12-18",
+    "end_date": "2024-12-18",
+    "type": "HYBRID"
+  },
+  {
+    "name": "Java Microservices Architecture",
+    "site": "https://javamicroservicesarchitecture.com",
+    "city": "Paris",
+    "address": "10 Rue de la Paix",
+    "location": "Ritz Paris",
+    "start_date": "2024-12-21",
+    "end_date": "2024-12-21",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "Python Automation Workshop",
+    "site": "https://pythonautomationworkshop.com",
+    "city": "",
+    "address": "",
+    "location": "",
+    "start_date": "2024-12-27",
+    "end_date": "2024-12-27",
+    "type": "ONLINE"
+  }
+]

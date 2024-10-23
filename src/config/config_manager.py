@@ -1,3 +1,5 @@
+from logging import info
+
 import yaml
 
 
@@ -5,12 +7,16 @@ class ConfigManager:
     _CONFIG_FILE = "config.yaml"
     _config = {}
 
-    def __init__(self):
+    def __init__(self, environment):
+        info(f"init:{environment}")
         with open(self._CONFIG_FILE, "r") as config_file:
+            info("Reading config")
             self._config = yaml.safe_load(config_file)
+            self._environment = environment
+            config_file.close()
 
     def get_countries_data(self):
-        return self._config['config']['countriesData']
+        return self._config['config'][self._environment]['countriesData']
 
     def get_template_file(self):
-        return self._config['config']['templateFile']
+        return self._config['config'][self._environment]['templateFile']

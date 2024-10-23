@@ -1,4 +1,5 @@
 import csv
+from logging import info
 
 from src.entities.country import Country
 
@@ -12,12 +13,17 @@ class CountryRepository:
     _FIELD_NAMES = ["Country", "Code", "Flag"]
 
     def __init__(self, countries_file):
+        info(f"init:{countries_file}")
         with open(countries_file, "r") as country_file_handler:
+            info(f"Opening data file")
             country_file_csv_data = csv.DictReader(
                 country_file_handler,
                 fieldnames=self._FIELD_NAMES,
-                delimiter=","
+                delimiter=",",
             )
+
+            info(f"Skipping header")
+            next(country_file_csv_data)
 
             for data in country_file_csv_data:
                 self._country_data.append(Country(
@@ -25,6 +31,8 @@ class CountryRepository:
                     data[self._FIELD_NAMES[1]],
                     data[self._FIELD_NAMES[2]])
                 )
+
+            country_file_handler.close()
 
     def get_country_list(self):
         return self._country_data

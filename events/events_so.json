@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Advanced Python in AI",
+    "site": "https://advancedpythoninai.com",
+    "city": "Lisbon",
+    "address": "Av. da Liberdade, 195",
+    "location": "Lisbon Marriott Hotel",
+    "start_date": "2024-11-05",
+    "end_date": "2024-11-05",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "Kotlin Web Frameworks",
+    "site": "https://kotlinwebframeworks.com",
+    "city": "Porto",
+    "address": "Rua de Santa Catarina, 300",
+    "location": "Porto Conference Center",
+    "start_date": "2024-11-10",
+    "end_date": "2024-11-10",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "AI & Machine Learning Summit",
+    "site": "https://aimachinelearningsummit.com",
+    "city": "",
+    "address": "",
+    "location": "",
+    "start_date": "2024-11-15",
+    "end_date": "2024-11-15",
+    "type": "ONLINE"
+  },
+  {
+    "name": "Java Microservices Architecture",
+    "site": "https://javamicroservicesarchitecture.com",
+    "city": "Coimbra",
+    "address": "Praça da República, 25",
+    "location": "University of Coimbra",
+    "start_date": "2024-11-20",
+    "end_date": "2024-11-20",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "Blockchain Essentials",
+    "site": "https://blockchainessentials.com",
+    "city": "",
+    "address": "",
+    "location": "",
+    "start_date": "2024-11-25",
+    "end_date": "2024-11-25",
+    "type": "ONLINE"
+  },
+  {
+    "name": "Python Data Science Bootcamp",
+    "site": "https://pythondatasciencebootcamp.com",
+    "city": "Lisbon",
+    "address": "Rua da Prata, 10",
+    "location": "Lisbon School of Economics",
+    "start_date": "2024-11-27",
+    "end_date": "2024-11-27",
+    "type": "HYBRID"
+  },
+  {
+    "name": "AI in Healthcare",
+    "site": "https://aiinhealthcare.com",
+    "city": "Porto",
+    "address": "Av. da Boavista, 567",
+    "location": "Sheraton Porto Hotel",
+    "start_date": "2024-12-01",
+    "end_date": "2024-12-01",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "Kotlin Advanced Techniques",
+    "site": "https://kotlinadvancedtechniques.com",
+    "city": "",
+    "address": "",
+    "location": "",
+    "start_date": "2024-12-05",
+    "end_date": "2024-12-05",
+    "type": "ONLINE"
+  },
+  {
+    "name": "JavaScript Full Stack Development",
+    "site": "https://javascriptfullstackdevelopment.com",
+    "city": "Braga",
+    "address": "Largo Senhora-a-Branca, 200",
+    "location": "Braga Conference Center",
+    "start_date": "2024-12-08",
+    "end_date": "2024-12-08",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "AI in Game Development",
+    "site": "https://aiingamedevelopment.com",
+    "city": "Faro",
+    "address": "Praça Alexandre Herculano, 100",
+    "location": "Faro University Campus",
+    "start_date": "2024-12-12",
+    "end_date": "2024-12-12",
+    "type": "HYBRID"
+  },
+  {
+    "name": "Software Architecture Masterclass",
+    "site": "https://softwarearchitecturemasterclass.com",
+    "city": "",
+    "address": "",
+    "location": "",
+    "start_date": "2024-12-15",
+    "end_date": "2024-12-15",
+    "type": "ONLINE"
+  },
+  {
+    "name": "Machine Learning in Finance",
+    "site": "https://machinelearninginfinance.com",
+    "city": "Lisbon",
+    "address": "Avenida da República, 150",
+    "location": "Lisbon Financial Center",
+    "start_date": "2024-12-18",
+    "end_date": "2024-12-18",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "Python Automation Workshop",
+    "site": "https://pythonautomationworkshop.com",
+    "city": "Porto",
+    "address": "Rua Mouzinho da Silveira, 400",
+    "location": "Porto Innovation Hub",
+    "start_date": "2024-12-20",
+    "end_date": "2024-12-20",
+    "type": "HYBRID"
+  },
+  {
+    "name": "Java Spring Boot Workshop",
+    "site": "https://javaspringbootworkshop.com",
+    "city": "",
+    "address": "",
+    "location": "",
+    "start_date": "2024-12-23",
+    "end_date": "2024-12-23",
+    "type": "ONLINE"
+  },
+  {
+    "name": "AI & Blockchain Convergence",
+    "site": "https://aiblockchainconvergence.com",
+    "city": "Coimbra",
+    "address": "Rua das Amoreiras, 50",
+    "location": "Coimbra Technology Park",
+    "start_date": "2024-12-28",
+    "end_date": "2024-12-28",
+    "type": "ON_SITE"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Java Spring Boot Workshop",
+    "site": "https://javaspringbootworkshop.com",
+    "city": "Berlin",
+    "address": "Friedrichstraße 100",
+    "location": "Maritim Hotel Berlin",
+    "start_date": "2024-11-03",
+    "end_date": "2024-11-03",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "Advanced Python in AI",
+    "site": "https://advancedpythoninai.com",
+    "city": "Munich",
+    "address": "Geschwister-Scholl-Platz 1",
+    "location": "Technische Universität München",
+    "start_date": "2024-11-10",
+    "end_date": "2024-11-10",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "Blockchain Essentials",
+    "site": "https://blockchainessentials.com",
+    "city": "",
+    "address": "",
+    "location": "",
+    "start_date": "2024-11-15",
+    "end_date": "2024-11-15",
+    "type": "ONLINE"
+  },
+  {
+    "name": "Kotlin Web Frameworks",
+    "site": "https://kotlinwebframeworks.com",
+    "city": "Frankfurt",
+    "address": "Senckenberganlage 31",
+    "location": "Frankfurt University",
+    "start_date": "2024-11-18",
+    "end_date": "2024-11-18",
+    "type": "HYBRID"
+  },
+  {
+    "name": "Software Architecture Masterclass",
+    "site": "https://softwarearchitecturemasterclass.com",
+    "city": "Hamburg",
+    "address": "Karolinenstraße 45",
+    "location": "Hamburg Messe",
+    "start_date": "2024-11-25",
+    "end_date": "2024-11-25",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "AI & Machine Learning Summit",
+    "site": "https://aimachinelearningsummit.com",
+    "city": "",
+    "address": "",
+    "location": "",
+    "start_date": "2024-12-01",
+    "end_date": "2024-12-01",
+    "type": "ONLINE"
+  },
+  {
+    "name": "JavaScript Full Stack Development",
+    "site": "https://javascriptfullstackdevelopment.com",
+    "city": "Cologne",
+    "address": "Messeplatz 1",
+    "location": "Cologne Conference Center",
+    "start_date": "2024-12-05",
+    "end_date": "2024-12-05",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "AI in Healthcare",
+    "site": "https://aiinhealthcare.com",
+    "city": "Stuttgart",
+    "address": "Messepiazza 1",
+    "location": "Stuttgart Messe",
+    "start_date": "2024-12-08",
+    "end_date": "2024-12-08",
+    "type": "HYBRID"
+  },
+  {
+    "name": "Machine Learning in Finance",
+    "site": "https://machinelearninginfinance.com",
+    "city": "Dresden",
+    "address": "Helmholtzstraße 10",
+    "location": "Dresden University",
+    "start_date": "2024-12-12",
+    "end_date": "2024-12-12",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "Kotlin Advanced Techniques",
+    "site": "https://kotlinadvancedtechniques.com",
+    "city": "",
+    "address": "",
+    "location": "",
+    "start_date": "2024-12-20",
+    "end_date": "2024-12-20",
+    "type": "ONLINE"
+  }
+]

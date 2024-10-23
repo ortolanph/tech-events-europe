@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Java Microservices Workshop",
+    "site": "https://javamicroservicesworkshop.com",
+    "city": "Madrid",
+    "address": "Paseo de la Castellana 57",
+    "location": "Hotel NH Collection Madrid",
+    "start_date": "2024-11-02",
+    "end_date": "2024-11-02",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "Advanced Python in AI",
+    "site": "https://advancedpythoninai.com",
+    "city": "Barcelona",
+    "address": "Carrer de Balmes 117",
+    "location": "Universitat de Barcelona",
+    "start_date": "2024-11-07",
+    "end_date": "2024-11-07",
+    "type": "HYBRID"
+  },
+  {
+    "name": "Blockchain Essentials Summit",
+    "site": "https://blockchainessentialssummit.com",
+    "city": "",
+    "address": "",
+    "location": "",
+    "start_date": "2024-11-15",
+    "end_date": "2024-11-15",
+    "type": "ONLINE"
+  },
+  {
+    "name": "AI & Machine Learning Bootcamp",
+    "site": "https://aimachinelearningbootcamp.com",
+    "city": "Valencia",
+    "address": "Avenida Cortes Valencianas 52",
+    "location": "Palau de Congressos de València",
+    "start_date": "2024-11-20",
+    "end_date": "2024-11-20",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "Kotlin for Backend Development",
+    "site": "https://kotlinbackenddevelopment.com",
+    "city": "Seville",
+    "address": "Avenida de la Buhaira 24",
+    "location": "Hotel Meliá Sevilla",
+    "start_date": "2024-12-01",
+    "end_date": "2024-12-01",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "Software Architecture Mastery",
+    "site": "https://softwarearchitecturemastery.com",
+    "city": "Bilbao",
+    "address": "Abandoibarra Etorbidea 4",
+    "location": "Euskalduna Conference Centre",
+    "start_date": "2024-12-07",
+    "end_date": "2024-12-07",
+    "type": "HYBRID"
+  },
+  {
+    "name": "AI in Fintech: Future of Banking",
+    "site": "https://aiinfintech.com",
+    "city": "",
+    "address": "",
+    "location": "",
+    "start_date": "2024-12-15",
+    "end_date": "2024-12-15",
+    "type": "ONLINE"
+  }
+]

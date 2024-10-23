@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Kotlin Advanced Techniques",
+    "site": "https://javaspringbootworkshop.com",
+    "city": "London",
+    "address": "123 Main St",
+    "location": "University of Manchester",
+    "start_date": "2024-12-20",
+    "end_date": "2024-12-20",
+    "type": "HYBRID"
+  },
+  {
+    "name": "Kotlin Advanced Techniques",
+    "site": "https://advancedpythoninai.com",
+    "city": "",
+    "address": "",
+    "location": "",
+    "start_date": "2024-11-23",
+    "end_date": "2024-11-23",
+    "type": "ONLINE"
+  },
+  {
+    "name": "AI in Game Development",
+    "site": "https://kotlinwebframeworks.com",
+    "city": "",
+    "address": "",
+    "location": "",
+    "start_date": "2024-12-07",
+    "end_date": "2024-12-07",
+    "type": "ONLINE"
+  },
+  {
+    "name": "JavaScript Full Stack Development",
+    "site": "https://softwarearchitecturemasterclass.com",
+    "city": "Liverpool",
+    "address": "1 King’s Rd",
+    "location": "University of Manchester",
+    "start_date": "2024-11-15",
+    "end_date": "2024-11-15",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "Kotlin Web Frameworks",
+    "site": "https://blockchainessentials.com",
+    "city": "Oxford",
+    "address": "1 King’s Rd",
+    "location": "The Queens Hotel",
+    "start_date": "2024-12-12",
+    "end_date": "2024-12-12",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "Java Spring Boot Workshop",
+    "site": "https://ai&machinelearningsummit.com",
+    "city": "",
+    "address": "",
+    "location": "",
+    "start_date": "2024-11-20",
+    "end_date": "2024-11-20",
+    "type": "ONLINE"
+  },
+  {
+    "name": "Python Data Science Bootcamp",
+    "site": "https://javascriptfullstackdevelopment.com",
+    "city": "London",
+    "address": "1 King’s Rd",
+    "location": "ExCeL London",
+    "start_date": "2024-12-12",
+    "end_date": "2024-12-12",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "Kotlin Advanced Techniques",
+    "site": "https://aiinhealthcare.com",
+    "city": "Bristol",
+    "address": "5 Castle St",
+    "location": "Queen Mary University",
+    "start_date": "2024-11-30",
+    "end_date": "2024-12-01",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "AI & Machine Learning Summit",
+    "site": "https://pythonautomationworkshop.com",
+    "city": "Cambridge",
+    "address": "789 Oxford Rd",
+    "location": "University of Cambridge",
+    "start_date": "2024-12-23",
+    "end_date": "2024-12-23",
+    "type": "HYBRID"
+  },
+  {
+    "name": "Software Architecture Masterclass",
+    "site": "https://aiandblockchainconvergence.com",
+    "city": "",
+    "address": "",
+    "location": "",
+    "start_date": "2024-11-17",
+    "end_date": "2024-11-17",
+    "type": "ONLINE"
+  },
+  {
+    "name": "Machine Learning in Finance",
+    "site": "https://javamicroservicesarchitecture.com",
+    "city": "",
+    "address": "",
+    "location": "",
+    "start_date": "2024-12-18",
+    "end_date": "2024-12-18",
+    "type": "ONLINE"
+  },
+  {
+    "name": "JavaScript Full Stack Development",
+    "site": "https://pythondatasciencebootcamp.com",
+    "city": "",
+    "address": "",
+    "location": "",
+    "start_date": "2024-11-22",
+    "end_date": "2024-11-22",
+    "type": "ONLINE"
+  },
+  {
+    "name": "Machine Learning in Finance",
+    "site": "https://kotlinadvancedtechniques.com",
+    "city": "Oxford",
+    "address": "1 King’s Rd",
+    "location": "King’s College London",
+    "start_date": "2024-12-14",
+    "end_date": "2024-12-15",
+    "type": "HYBRID"
+  },
+  {
+    "name": "Java Spring Boot Workshop",
+    "site": "https://machinelearninginfinance.com",
+    "city": "Bristol",
+    "address": "456 High St",
+    "location": "The Queens Hotel",
+    "start_date": "2024-12-15",
+    "end_date": "2024-12-15",
+    "type": "ON_SITE"
+  },
+  {
+    "name": "Machine Learning in Finance",
+    "site": "https://aiingamedevelopment.com",
+    "city": "",
+    "address": "",
+    "location": "",
+    "start_date": "2024-11-05",
+    "end_date": "2024-11-05",
+    "type": "ONLINE"
+  }
+]

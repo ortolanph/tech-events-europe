@@ -1,9 +1,15 @@
-# {flag} {country} Events
+# {{country}} Events
+{% for month in month_data %}
 
-## {Month}
+## {{month.name}}
 
-| Event Name | City | Address | Start Date | End Date | Type |
-|------------|------|---------|:----------:|:--------:|------|
-| {event_name} | {event_city} | Link to the google map {event_address} | {event_start_date} | {event_end_date} | {event_type=PRESENTIAL_REMOTE_HYBRID}|
+| Event Name | City  | Address  | Location | Start Date | End Date | Type |
+|------------|-------|----------|----------|:----------:|:--------:|------|
+{% for event in month.events %}
+| [{{event.name}}]({{event.site}}) | {{event.city}} | {{event.address}} | {{event.location}} | {{event.start_date}}  | {{event.end_date}} | {{event.type}} |
+{% endfor %}
 
-All event cost, acommodations, and transportation information are resposbilibities of the organizers.
+[Back](..README.md)
+{% endfor %}
+
+All event cost, accommodations, and transportation information are responsibilities of the organizers.
