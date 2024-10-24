@@ -9,6 +9,6 @@
 | [Porto Tech Hub Conference 2024](https://portotechhub.com/) | Porto | R. Nova da Alfândega, 4050-430 | Alfandega Congress Center | 2024-11-26  | 2024-11-26 | ON-SITE |
 | [IDC Security & Cloud Porto](https://www.idc.com/eu/events/71406-idc-security-cloud-porto) | Porto | Av. Escritor Costa Barreto 60, 4420-445 | Pestana Douro River | 2024-11-30  | 2024-10-30 | ON-SITE |
 
-[Back](..README.md)
+[Back](../README.md)
 
 All event cost, accommodations, and transportation information are responsibilities of the organizers.
