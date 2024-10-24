@@ -6,7 +6,7 @@ Events of technology all over the Europe.
 
 This repository is under construction. Still no content... I will make my efforts to create the parsing script for 2025. But you can begin contributing. See how below.
 
-* All Europe
+* [Portugal](pages/events_pt.md)
 
 ## How to use it?
 
