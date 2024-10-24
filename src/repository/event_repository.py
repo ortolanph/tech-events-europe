@@ -21,7 +21,7 @@ def remaining_events_filter(event):
     current_year = today.year
     last_day_of_year = datetime.date(current_year, 12, 31)
 
-    return event.get_end_date() > today and event.get_end_date() <= last_day_of_year
+    return today < event.get_end_date() <= last_day_of_year
 
 
 class EventRepository:
