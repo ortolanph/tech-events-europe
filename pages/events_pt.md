@@ -11,11 +11,4 @@
 
 [Back](..README.md)
 
-## December
-
-| Event Name | City  | Address  | Location | Start Date | End Date | Type |
-|------------|-------|----------|----------|:----------:|:--------:|------|
-
-[Back](..README.md)
-
 All event cost, accommodations, and transportation information are responsibilities of the organizers.
