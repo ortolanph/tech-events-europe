@@ -1,5 +1,6 @@
 import datetime
 import json
+import logging
 
 from src.entities.event import Event
 
@@ -18,8 +19,9 @@ class EventRepository:
     _events = []
 
     def __init__(self, country_code):
+        logging.info(f"EventRepository::init:{country_code}")
         self._events = []
-        event_file =  f'events/events_{country_code}.json'
+        event_file = f'events/events_{country_code}.json'
 
         with open(event_file, 'r') as event_file_handler:
             events = json.loads(event_file_handler.read())
@@ -38,7 +40,9 @@ class EventRepository:
             event_file_handler.close()
 
     def get_events(self):
+        logging.info("EventRepository::get_events")
         return self._events
 
     def get_upcoming_events(self):
+        logging.info("EventRepository::get_upcoming_events")
         return list(filter(date_filter, self._events))

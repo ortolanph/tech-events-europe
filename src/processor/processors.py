@@ -1,3 +1,5 @@
+import logging
+
 from src.entities.country import Country
 from src.entities.month_event import MonthEvent
 from src.page.page_creator import PageCreator
@@ -38,12 +40,15 @@ class SingleCountryProcessor(Processor):
     ]
 
     def __init__(self, country: Country, event_repository: EventRepository, template_file):
+        logging.info(f"SinglePageProcessor::init::country:{country};event_repository:{event_repository};template_file:{template_file}")
         self._country = country
         self._event_repository = event_repository
         self._template_file = template_file
         self._page_creator = PageCreator(template_file, country)
 
     def process(self):
+        logging.info(f"SinglePageProcessor::process")
+        logging.info(f"processing events for country {self._country.code}")
         events = self._event_repository.get_upcoming_events()
         events.sort(key=date_sorter, reverse=False)
         first_month = events[0].get_start_date().month
@@ -51,8 +56,9 @@ class SingleCountryProcessor(Processor):
         arranged_events = []
 
         for month in range(first_month, 13):
+            logging.info(f"events for month:{month}")
             current_month = \
-            list(filter(lambda month_data: filter_month_by_id(month_data, month), self._events_by_month))[0]
+                list(filter(lambda month_data: filter_month_by_id(month_data, month), self._events_by_month))[0]
 
             selected_events = list(filter(lambda event: filter_events_by_month(event, month), events))
             current_month.clear_events()
@@ -66,8 +72,10 @@ class SingleCountryProcessor(Processor):
 class AllCountriesProcessor(Processor):
 
     def __init__(self, processors: []):
+        logging.info(f"AllCountriesProcessor::init::processors:{processors}")
         self._processors = processors
 
     def process(self):
+        logging.info(f"AllCountriesProcessor::processing all countries")
         for country_processor in self._processors:
             country_processor.process()

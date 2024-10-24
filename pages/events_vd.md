@@ -24,4 +24,5 @@
 
 [Back](..README.md)
 
+
 All event cost, accommodations, and transportation information are responsibilities of the organizers.

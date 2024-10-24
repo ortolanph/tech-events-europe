@@ -1,3 +1,4 @@
+import logging
 from logging import info
 
 import yaml
@@ -16,7 +17,9 @@ class ConfigManager:
             config_file.close()
 
     def get_countries_data(self):
+        logging.info("get_countries.data")
         return self._config['config'][self._environment]['countriesData']
 
     def get_template_file(self):
+        logging.info("get_template_file")
         return self._config['config'][self._environment]['templateFile']

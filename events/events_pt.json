@@ -1,0 +1,52 @@
+[
+  {
+    "name": "IDC Security & Cloud Porto",
+    "site": "https://www.idc.com/eu/events/71406-idc-security-cloud-porto",
+    "city": "Porto",
+    "location": "Pestana Douro River",
+    "address": "Av. Escritor Costa Barreto 60, 4420-445",
+    "start_date": "2024-11-30",
+    "end_date": "2024-10-30",
+    "type": "ON-SITE"
+  },
+  {
+    "name": "Lisbon Data & AI Forum",
+    "site": "https://landing.noesis-corporation.com/lisbon-data-ai-forum-2024?",
+    "city": "Lisboa",
+    "location": "LX Factory",
+    "address": "R. Rodrigues de Faria 103, 1300-501",
+    "start_date": "2024-11-06",
+    "end_date": "2024-11-06",
+    "type": "ON-SITE"
+  },
+  {
+    "name": "Crypto AI:CON Lisbon 2024",
+    "site": "https://ai.lunarstrategy.com/",
+    "city": "Lisboa",
+    "location": "Técnico Innovation Center",
+    "address": "Av. Duque de Ávila 417",
+    "start_date": "2024-11-09",
+    "end_date": "2024-11-09",
+    "type": "ON-SITE"
+  },
+  {
+    "name": "Porto Tech Hub Conference 2024",
+    "site": "https://portotechhub.com/",
+    "city": "Porto",
+    "location": "Alfandega Congress Center",
+    "address": "R. Nova da Alfândega, 4050-430",
+    "start_date": "2024-11-26",
+    "end_date": "2024-11-26",
+    "type": "ON-SITE"
+  },
+  {
+    "name": "UXLx: User Experience Lisbon 2025",
+    "site": "https://ux-lx.com/",
+    "city": "Lisboa",
+    "location": "FIL Meeting Centre",
+    "address": "Rua do Bojador, Parque das Nações, 1998-010 ",
+    "start_date": "2025-05-20",
+    "end_date": "2025-05-23",
+    "type": "ON-SITE"
+  }
+]

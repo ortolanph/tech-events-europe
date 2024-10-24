@@ -13,7 +13,7 @@ class CountryRepository:
     _FIELD_NAMES = ["Country", "Code", "Flag"]
 
     def __init__(self, countries_file):
-        info(f"init:{countries_file}")
+        info(f"CountryRepository::init:country_file:{countries_file}")
         with open(countries_file, "r") as country_file_handler:
             info(f"Opening data file")
             country_file_csv_data = csv.DictReader(
@@ -35,8 +35,10 @@ class CountryRepository:
             country_file_handler.close()
 
     def get_country_list(self):
+        info(f"CountryRepository::get_country_list")
         return self._country_data
 
     def get_country_by_code(self, country_code):
+        info(f"CountryRepository::get_country_by_code::country_code:{country_code}")
         result = list(filter(lambda c: filter_by_country_code(c, country_code), self._country_data))
         return result[0] if len(result) > 0 else None

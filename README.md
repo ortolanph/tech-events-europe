@@ -6,7 +6,17 @@ Events of technology all over the Europe.
 
 This repository is under construction. Still no content... I will make my efforts to create the parsing script for 2025. But you can begin contributing. See how below.
 
-* All Europe
+* [Portugal](pages/events_pt.md)
+
+## Test Countries
+
+Just to have a little fun and see how things are:
+
+* [Arctavia](pages/events_ac.md)
+* [Solarya](pages/events_so.md)
+* [Veridonia](pages/events_vd.md)
+* [Zorenthia](pages/events_zt.md)
+* [Lunovia](pages/events_lu.md)
 
 ## How to use it?
 

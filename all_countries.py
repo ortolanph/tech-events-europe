@@ -11,6 +11,7 @@ logging.basicConfig(
     level=logging.INFO)
 
 def main(environment):
+    logging.info(f"main:{environment}")
     config = ConfigManager(environment)
     country_repository = CountryRepository(config.get_countries_data())
     countries = country_repository.get_country_list()
