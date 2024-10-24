@@ -10,7 +10,7 @@
 | [Kotlin Web Frameworks](https://kotlinwebframeworks.com) | Frankfurt | Senckenberganlage 31 | Frankfurt University | 2024-11-18  | 2024-11-18 | HYBRID |
 | [Software Architecture Masterclass](https://softwarearchitecturemasterclass.com) | Hamburg | Karolinenstraße 45 | Hamburg Messe | 2024-11-25  | 2024-11-25 | ON_SITE |
 
-[Back](..README.md)
+[Back](../README.md)
 
 ## December
 
@@ -22,7 +22,7 @@
 | [Machine Learning in Finance](https://machinelearninginfinance.com) | Dresden | Helmholtzstraße 10 | Dresden University | 2024-12-12  | 2024-12-12 | ON_SITE |
 | [Kotlin Advanced Techniques](https://kotlinadvancedtechniques.com) |  |  |  | 2024-12-20  | 2024-12-20 | ONLINE |
 
-[Back](..README.md)
+[Back](../README.md)
 
 
 All event cost, accommodations, and transportation information are responsibilities of the organizers.

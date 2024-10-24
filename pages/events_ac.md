@@ -12,7 +12,7 @@
 | [Kotlin Advanced Techniques](https://advancedpythoninai.com) |  |  |  | 2024-11-23  | 2024-11-23 | ONLINE |
 | [Kotlin Advanced Techniques](https://aiinhealthcare.com) | Bristol | 5 Castle St | Queen Mary University | 2024-11-30  | 2024-12-01 | ON_SITE |
 
-[Back](..README.md)
+[Back](../README.md)
 
 ## December
 
@@ -27,7 +27,7 @@
 | [Kotlin Advanced Techniques](https://javaspringbootworkshop.com) | London | 123 Main St | University of Manchester | 2024-12-20  | 2024-12-20 | HYBRID |
 | [AI & Machine Learning Summit](https://pythonautomationworkshop.com) | Cambridge | 789 Oxford Rd | University of Cambridge | 2024-12-23  | 2024-12-23 | HYBRID |
 
-[Back](..README.md)
+[Back](../README.md)
 
 
 All event cost, accommodations, and transportation information are responsibilities of the organizers.

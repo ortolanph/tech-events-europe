@@ -11,7 +11,7 @@
 | [Blockchain Essentials](https://blockchainessentials.com) |  |  |  | 2024-11-25  | 2024-11-25 | ONLINE |
 | [Python Data Science Bootcamp](https://pythondatasciencebootcamp.com) | Lisbon | Rua da Prata, 10 | Lisbon School of Economics | 2024-11-27  | 2024-11-27 | HYBRID |
 
-[Back](..README.md)
+[Back](../README.md)
 
 ## December
 
@@ -27,7 +27,7 @@
 | [Java Spring Boot Workshop](https://javaspringbootworkshop.com) |  |  |  | 2024-12-23  | 2024-12-23 | ONLINE |
 | [AI & Blockchain Convergence](https://aiblockchainconvergence.com) | Coimbra | Rua das Amoreiras, 50 | Coimbra Technology Park | 2024-12-28  | 2024-12-28 | ON_SITE |
 
-[Back](..README.md)
+[Back](../README.md)
 
 
 All event cost, accommodations, and transportation information are responsibilities of the organizers.

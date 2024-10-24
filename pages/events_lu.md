@@ -9,7 +9,7 @@
 | [Blockchain Essentials Summit](https://blockchainessentialssummit.com) |  |  |  | 2024-11-15  | 2024-11-15 | ONLINE |
 | [AI & Machine Learning Bootcamp](https://aimachinelearningbootcamp.com) | Valencia | Avenida Cortes Valencianas 52 | Palau de Congressos de València | 2024-11-20  | 2024-11-20 | ON_SITE |
 
-[Back](..README.md)
+[Back](../README.md)
 
 ## December
 
@@ -19,7 +19,7 @@
 | [Software Architecture Mastery](https://softwarearchitecturemastery.com) | Bilbao | Abandoibarra Etorbidea 4 | Euskalduna Conference Centre | 2024-12-07  | 2024-12-07 | HYBRID |
 | [AI in Fintech: Future of Banking](https://aiinfintech.com) |  |  |  | 2024-12-15  | 2024-12-15 | ONLINE |
 
-[Back](..README.md)
+[Back](../README.md)
 
 
 All event cost, accommodations, and transportation information are responsibilities of the organizers.

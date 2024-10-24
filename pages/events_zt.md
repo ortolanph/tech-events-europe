@@ -13,7 +13,7 @@
 | [AI in Healthcare](https://aiinhealthcare.com) | Paris | 79 Avenue des Champs-Élysées | Hôtel Barrière Le Fouquet's | 2024-11-25  | 2024-11-25 | ON_SITE |
 | [Python Data Science Bootcamp](https://pythondatasciencebootcamp.com) |  |  |  | 2024-11-29  | 2024-11-29 | ONLINE |
 
-[Back](..README.md)
+[Back](../README.md)
 
 ## December
 
@@ -27,7 +27,7 @@
 | [Java Microservices Architecture](https://javamicroservicesarchitecture.com) | Paris | 10 Rue de la Paix | Ritz Paris | 2024-12-21  | 2024-12-21 | ON_SITE |
 | [Python Automation Workshop](https://pythonautomationworkshop.com) |  |  |  | 2024-12-27  | 2024-12-27 | ONLINE |
 
-[Back](..README.md)
+[Back](../README.md)
 
 
 All event cost, accommodations, and transportation information are responsibilities of the organizers.
