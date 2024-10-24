@@ -15,12 +15,22 @@ def date_filter(event):
     return event.get_start_date() >= beginning_of_the_current_month and event.get_end_date() <= last_day_of_year
 
 
+def remaining_events_filter(event):
+    today = datetime.date.today()
+
+    current_year = today.year
+    last_day_of_year = datetime.date(current_year, 12, 31)
+
+    return event.get_end_date() > today and event.get_end_date() <= last_day_of_year
+
+
 class EventRepository:
     _events = []
 
     def __init__(self, country_code):
         logging.info(f"EventRepository::init:{country_code}")
         self._events = []
+        self._country_code = country_code
         event_file = f'events/events_{country_code}.json'
 
         with open(event_file, 'r') as event_file_handler:
@@ -46,3 +56,9 @@ class EventRepository:
     def get_upcoming_events(self):
         logging.info("EventRepository::get_upcoming_events")
         return list(filter(date_filter, self._events))
+
+    def remove_old_events(self):
+        logging.info("EventRepository::remove_old_events")
+        remaining_events = list(filter(remaining_events_filter, self._events))
+
+        event_file = f'events/events_{self._country_code}.json'
