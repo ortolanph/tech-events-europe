@@ -60,5 +60,10 @@ class EventRepository:
     def remove_old_events(self):
         logging.info("EventRepository::remove_old_events")
         remaining_events = list(filter(remaining_events_filter, self._events))
+        remaining_events_dict = [e.to_dict() for e in remaining_events]
 
         event_file = f'events/events_{self._country_code}.json'
+
+        with open(event_file, "w") as new_contents_file:
+            new_contents_file.writelines(json.dumps(remaining_events_dict))
+            new_contents_file.close()
