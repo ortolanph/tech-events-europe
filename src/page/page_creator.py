@@ -28,3 +28,6 @@ class PageCreator:
         logging.info("saving rendered page")
         with open(f'pages/events_{self._country.code}.md', "w") as rendered_page_handler:
             rendered_page_handler.writelines(rendered_page)
+
+    def __str__(self):
+        return f'(PageCreator::page_template:{self._page_template}:country:{self._country})'

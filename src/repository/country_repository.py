@@ -42,3 +42,6 @@ class CountryRepository:
         info(f"CountryRepository::get_country_by_code::country_code:{country_code}")
         result = list(filter(lambda c: filter_by_country_code(c, country_code), self._country_data))
         return result[0] if len(result) > 0 else None
+
+    def __str__(self):
+        return f'(CountryRepository::country_data:{self._country_data})'

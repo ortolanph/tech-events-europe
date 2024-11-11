@@ -28,12 +28,12 @@ class EventRepository:
     _events = []
 
     def __init__(self, country_code):
-        logging.info(f"EventRepository::init:{country_code}")
+        logging.info(f"EventRepository::init::country_code:{country_code}")
         self._events = []
         self._country_code = country_code
         event_file = f'events/events_{country_code}.json'
 
-        with open(event_file, 'r') as event_file_handler:
+        with open(event_file, 'r', encoding='UTF-8') as event_file_handler:
             events = json.loads(event_file_handler.read())
 
             for event in events:
@@ -67,3 +67,6 @@ class EventRepository:
         with open(event_file, "w") as new_contents_file:
             new_contents_file.writelines(json.dumps(remaining_events_dict))
             new_contents_file.close()
+
+    def __str__(self):
+        return f'(EventRepository::events:{self._events}:country_code:{self._country_code})'

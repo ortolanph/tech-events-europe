@@ -23,3 +23,6 @@ class ConfigManager:
     def get_template_file(self):
         logging.info("get_template_file")
         return self._config['config'][self._environment]['templateFile']
+
+    def __str__(self):
+        return f'(ConfigManager::environment:{self._environment})'

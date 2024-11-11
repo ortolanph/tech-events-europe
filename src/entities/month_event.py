@@ -4,8 +4,8 @@ def to_event_dict(event):
 
 class MonthEvent:
 
-    def __init__(self, id, month):
-        self._id = id
+    def __init__(self, month_id, month):
+        self._id = month_id
         self._month = month
         self._events = []
 
@@ -24,3 +24,6 @@ class MonthEvent:
             "name": self._month,
             "events": list(map(to_event_dict, self._events))
         }
+
+    def __str__(self):
+        return f'(MonthEvent::id:{self._month}:month:{self._month}:events:{self._events})'

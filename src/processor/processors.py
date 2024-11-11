@@ -68,6 +68,9 @@ class SingleCountryProcessor(Processor):
 
         self._page_creator.create_page(arranged_events)
 
+    def __str__(self):
+        return f'(SingleEventProcessor::country:{self._country}:event_repository:{self._event_repository}:template_file:{self._template_file}:page_creator:{self._page_creator})'
+
 
 class AllCountriesProcessor(Processor):
 
@@ -79,3 +82,6 @@ class AllCountriesProcessor(Processor):
         logging.info(f"AllCountriesProcessor::processing all countries")
         for country_processor in self._processors:
             country_processor.process()
+
+    def __str__(self):
+        return f'(SingleEventProcessor::processors:{self._processors})'
